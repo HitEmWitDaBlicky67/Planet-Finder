@@ -30,8 +30,7 @@ To get started with PlanetFinder, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/planetfinder.git
-    cd planetfinder
+    git clone https://github.com/YuvrajVamp7K/Planet-Finder
     ```
 
 2. **Create and activate a virtual environment:**
