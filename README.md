@@ -2,19 +2,17 @@
 
 PlanetFinder is a Pythonproject designed to detect exoplanets using light curve data from the TESS mission. By using the Lightkurve library, PlanetFinder provides help to search for and analyze potential exoplanet transits.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Finding Target IDs](#finding-target-ids)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
 this project was made to try very basic exoplanet discovery using data from the TESS mission.
+
+watch this video to know more if youre interested: 
+
+[![Video Title](https://img.youtube.com/vi/J2yD9JrqllA/0.jpg)](https://www.youtube.com/watch?v=J2yD9JrqllA)
+
+
+
 ## Features
 
 - Search and download light curve data from TESS
@@ -32,16 +30,9 @@ To get started with PlanetFinder, follow these steps:
     git clone https://github.com/YuvrajVamp7K/Planet-Finder
     ```
 
-2. **Create and activate a virtual environment:**
-    ```bash
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    ```
-
 3. **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+    ```bash pip install lightkurve ```
+
 
 ## Finding Target IDs
 
@@ -73,19 +64,6 @@ To analyze light curve data for specific stars, you need the Target Identifier (
      lc_file = search_result.download()
      lc = lc_file.PDCSAP_FLUX.remove_nans()
      ```
-
-## Contributing
-
-We welcome contributions from the community! To contribute to PlanetFinder:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes and push to your branch.
-4. Open a pull request with a detailed description of your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
