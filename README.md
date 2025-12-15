@@ -1,6 +1,6 @@
 # PlanetFinder: A Lightkurve Project for Exoplanet Detection
 
-PlanetFinder is a Python-based project designed to detect exoplanets using light curve data from the TESS mission. By leveraging the Lightkurve library, PlanetFinder provides tools to search for, analyze, and visualize potential exoplanet transits.
+PlanetFinder is a Pythonproject designed to detect exoplanets using light curve data from the TESS mission. By using the Lightkurve library, PlanetFinder provides help to search for and analyze potential exoplanet transits.
 
 ## Table of Contents
 
@@ -14,8 +14,7 @@ PlanetFinder is a Python-based project designed to detect exoplanets using light
 
 ## Introduction
 
-PlanetFinder is aimed at citizen scientists and astronomers who want to participate in the exciting field of exoplanet discovery. Using data from the TESS mission, this project allows users to identify and analyze potential exoplanet transits through an easy-to-use Python interface.
-
+this project was made to try very basic exoplanet discovery using data from the TESS mission.
 ## Features
 
 - Search and download light curve data from TESS
